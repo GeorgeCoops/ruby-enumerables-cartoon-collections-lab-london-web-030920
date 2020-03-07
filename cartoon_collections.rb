@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(array)# code an argument here
   # Your code here
+  array = array.each do |oppressed_worker|
+   puts "#{oppressed_worker.capitalize} wants to start a union!"
+end
+array
 end
 
 def summon_captain_planet# code an argument here
