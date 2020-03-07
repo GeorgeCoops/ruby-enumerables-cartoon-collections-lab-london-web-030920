@@ -26,7 +26,7 @@ def find_the_cheese(array)# code an argument here
 
   if cheese_types.include?(array[counter])
     return array[counter]
-    #binding.pry
+    binding.pry
   else
     counter += 1
   end
