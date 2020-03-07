@@ -30,6 +30,6 @@ def find_the_cheese(array)# code an argument here
   end
     counter += 1
   end
-  binding.pry
+  #binding.pry
   nil
 end
