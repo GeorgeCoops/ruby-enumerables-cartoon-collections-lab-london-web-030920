@@ -1,8 +1,7 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  array.each do |oppressed_worker|
-    puts "#{oppressed_worker.capitalize}"
-  end
+   array = array.collect{ |dwarf| puts dwarf }
+
 array
 end
 
