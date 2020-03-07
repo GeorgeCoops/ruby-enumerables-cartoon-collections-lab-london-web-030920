@@ -21,7 +21,7 @@ def find_the_cheese9(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   counter = 0
-  if cheese_types[counter].include?()
+  if cheese_types[counter].include?(array[counter])
     return array[counter]
   end
   nil
