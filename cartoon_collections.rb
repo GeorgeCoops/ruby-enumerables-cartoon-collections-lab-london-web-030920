@@ -23,6 +23,6 @@ def find_the_cheese9(array)# code an argument here
   if array.include?("cheddar")
     return "cheddar"
   else
-    return
+    return nil
   end
 end
