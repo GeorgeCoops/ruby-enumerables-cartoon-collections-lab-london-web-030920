@@ -1,9 +1,7 @@
-require 'pry'
-
 def roll_call_dwarves(array)# code an argument here
   # Your code here
    array = array.collect{ |dwarf| puts dwarf }
-binding.pry
+
 array
 end
 
