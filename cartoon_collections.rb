@@ -26,4 +26,5 @@ def find_the_cheese(array)# code an argument here
   else
     counter += 1
   end
+  nil
 end
